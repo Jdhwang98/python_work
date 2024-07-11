@@ -8,9 +8,18 @@
 # print both of your lists to make sure the messages were moved correctly.
 
 text_messages = ["i want to eat pizza today", "let's go to the beach", "we are going to watch a movie today", "the gym is fun"]
+sent_messages = []
 
 def show_messages(text_messages):  
     for message in text_messages:
-        print(message)
+        print(f"\n{message}")
+
+def send_message(text_messages, sent_messages):
+    while text_messages:
+        current_message = text_messages.pop()
+        print(current_message)
+        sent_messages.append(current_message)
+    print(f"\n{sent_messages}")
 
 show_messages(text_messages)
+send_message(text_messages, sent_messages)
