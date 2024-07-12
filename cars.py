@@ -19,6 +19,7 @@ def make_car(manufacturer, model, **car_info):
         car[info] = fact
     return car
 
+
 john = make_car(manufacturer="honda", model="civic", color="white", year="2019")
 eryn = make_car(manufacturer="toyota", model="corola", color="black", year="2019")
 
