@@ -1,0 +1,4 @@
+In python you can use dictionaries for key value pairs
+In python you can use list for almost anything
+In python you can write code faster
+In python you can use modules to organize your files
