@@ -10,6 +10,7 @@ extensions to a directory of choice
     
 files = [f for f in os.listdir() if '.py' in f.lower()]
 
+"""this allows you to create a directory (optional)"""
 os.mkdir('python_files')
 
 for file in files:
